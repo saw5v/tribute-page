@@ -1,6 +1,15 @@
 body{
 
 }
+
+#time-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 50px 15px 100px;
+    padding: 10px 10px 10px 100px;
+
+}
 #main{
     font-size: 1.5rem;
     display: flex;
@@ -11,15 +20,22 @@ body{
     background-color: #f7f7f7;
     border-radius: 10px;
     border: 1px solid red;
-    height: 2000px;
+    height: auto;
     
+}
+li{
+    margin-top: 10px;
 }
 
 #img{
+    width: 100%;
+    height: auto;
     border-color:mediumaquamarine;
     border-width: 10px;
     border-style: solid;
     border-radius: 10px;
+    
+    
 
     
     
@@ -27,10 +43,14 @@ body{
 #img-div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: flex-start;
     background-color: white;
     border-radius: 10px;
+    
+    
+    
+
     
 }
 #img-caption{
@@ -67,4 +87,6 @@ body{
     display: flex; 
     flex-direction: column;
     align-items: center;
+    justify-content:flex-start;
+
 }
